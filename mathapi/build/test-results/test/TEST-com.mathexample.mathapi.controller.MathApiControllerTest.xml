@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.mathexample.mathapi.controller.MathApiControllerTest" tests="15" skipped="0" failures="0" errors="0" timestamp="2024-12-29T17:35:20" hostname="Y42TN77Q2X" time="0.703">
+  <properties/>
+  <testcase name="testFindMaxWithNULLList()" classname="com.mathexample.mathapi.controller.MathApiControllerTest" time="0.618"/>
+  <testcase name="testFindMax()" classname="com.mathexample.mathapi.controller.MathApiControllerTest" time="0.024"/>
+  <testcase name="testFindMin()" classname="com.mathexample.mathapi.controller.MathApiControllerTest" time="0.003"/>
+  <testcase name="testCalculatePercentileWithNull()" classname="com.mathexample.mathapi.controller.MathApiControllerTest" time="0.003"/>
+  <testcase name="testCalculateAverage()" classname="com.mathexample.mathapi.controller.MathApiControllerTest" time="0.019"/>
+  <testcase name="testCalculateMedianWithNull()" classname="com.mathexample.mathapi.controller.MathApiControllerTest" time="0.004"/>
+  <testcase name="testCalculateAverageWithSingleValue()" classname="com.mathexample.mathapi.controller.MathApiControllerTest" time="0.003"/>
+  <testcase name="testCalculatePercentileWithSingleValue()" classname="com.mathexample.mathapi.controller.MathApiControllerTest" time="0.005"/>
+  <testcase name="testCalculatePercentile()" classname="com.mathexample.mathapi.controller.MathApiControllerTest" time="0.003"/>
+  <testcase name="testCalculateMedianEvenSize()" classname="com.mathexample.mathapi.controller.MathApiControllerTest" time="0.002"/>
+  <testcase name="testCalculateAverageWithNull()" classname="com.mathexample.mathapi.controller.MathApiControllerTest" time="0.004"/>
+  <testcase name="testFindMaxWithNULLQuantifier()" classname="com.mathexample.mathapi.controller.MathApiControllerTest" time="0.003"/>
+  <testcase name="testFindMinWithNULLList()" classname="com.mathexample.mathapi.controller.MathApiControllerTest" time="0.002"/>
+  <testcase name="testCalculateMedianValue()" classname="com.mathexample.mathapi.controller.MathApiControllerTest" time="0.003"/>
+  <testcase name="testFindMinWithNULLQuantifier()" classname="com.mathexample.mathapi.controller.MathApiControllerTest" time="0.003"/>
+  <system-out><![CDATA[01:35:19.108 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.mathexample.mathapi.controller.MathApiControllerTest]: MathApiControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+01:35:19.232 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.mathexample.mathapi.MathapiApplication for test class com.mathexample.mathapi.controller.MathApiControllerTest
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.4.1)
+
+2024-12-30T01:35:19.538+08:00  INFO 7369 --- [mathapi] [    Test worker] c.m.m.controller.MathApiControllerTest   : Starting MathApiControllerTest using Java 17.0.2 with PID 7369 (started by mpreeti in /Users/mpreeti/Downloads/mathapi)
+2024-12-30T01:35:19.539+08:00  INFO 7369 --- [mathapi] [    Test worker] c.m.m.controller.MathApiControllerTest   : No active profile set, falling back to 1 default profile: "default"
+2024-12-30T01:35:20.125+08:00  INFO 7369 --- [mathapi] [    Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2024-12-30T01:35:20.125+08:00  INFO 7369 --- [mathapi] [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2024-12-30T01:35:20.126+08:00  INFO 7369 --- [mathapi] [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2024-12-30T01:35:20.150+08:00  INFO 7369 --- [mathapi] [    Test worker] c.m.m.controller.MathApiControllerTest   : Started MathApiControllerTest in 0.863 seconds (process running for 1.748)
+2024-12-30T01:35:20.760+08:00  WARN 7369 --- [mathapi] [    Test worker] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Method parameter 'numList': Failed to convert value of type 'java.lang.String' to required type 'java.util.List'; For input string: "null"]
+2024-12-30T01:35:20.804+08:00  WARN 7369 --- [mathapi] [    Test worker] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Method parameter 'numList': Failed to convert value of type 'java.lang.String' to required type 'java.util.List'; For input string: "null"]
+2024-12-30T01:35:20.827+08:00  WARN 7369 --- [mathapi] [    Test worker] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Method parameter 'numList': Failed to convert value of type 'java.lang.String' to required type 'java.util.List'; For input string: "null"]
+2024-12-30T01:35:20.845+08:00  WARN 7369 --- [mathapi] [    Test worker] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Method parameter 'numList': Failed to convert value of type 'java.lang.String' to required type 'java.util.List'; For input string: "null"]
+2024-12-30T01:35:20.848+08:00  WARN 7369 --- [mathapi] [    Test worker] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Method parameter 'quantifier': Failed to convert value of type 'java.lang.String' to required type 'int'; For input string: "null"]
+2024-12-30T01:35:20.850+08:00  WARN 7369 --- [mathapi] [    Test worker] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Method parameter 'numList': Failed to convert value of type 'java.lang.String' to required type 'java.util.List'; For input string: "null"]
+2024-12-30T01:35:20.856+08:00  WARN 7369 --- [mathapi] [    Test worker] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Method parameter 'quantifier': Failed to convert value of type 'java.lang.String' to required type 'int'; For input string: "null"]
+]]></system-out>
+  <system-err><![CDATA[[2024.12.30 01:35:19] (Coverage): Error during class instrumentation: org.springframework.http.client.ReactorResourceFactory: java.lang.RuntimeException: java.io.IOException: Class reactor/netty/resources/ConnectionProvider not found
+[2024.12.30 01:35:19] (Coverage): Error during class instrumentation: org.springframework.boot.logging.log4j2.Log4J2LoggingSystem: java.lang.RuntimeException: java.io.IOException: Class org/apache/logging/log4j/core/config/composite/CompositeConfiguration not found
+[2024.12.30 01:35:19] (Coverage): Error during class instrumentation: org.springframework.web.servlet.config.annotation.WebMvcConfigurationSupport: java.lang.RuntimeException: java.io.IOException: Class jakarta/validation/ValidatorFactory not found
+[2024.12.30 01:35:20] (Coverage): Error during class instrumentation: org.springframework.web.method.support.InvocableHandlerMethod: java.lang.RuntimeException: java.io.IOException: Class reactor/core/publisher/Mono not found
+[2024.12.30 01:35:20] (Coverage): Error during class instrumentation: org.springframework.core.ReactiveAdapterRegistry$ReactorAdapter: java.lang.RuntimeException: java.io.IOException: Class reactor/core/publisher/Flux not found
+]]></system-err>
+</testsuite>
